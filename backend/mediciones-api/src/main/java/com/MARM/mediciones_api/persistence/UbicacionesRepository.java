@@ -1,7 +1,7 @@
 package com.MARM.mediciones_api.persistence;
 
-import com.MARM.mediciones_api.domain.dto.Locations;
-import com.MARM.mediciones_api.domain.repository.LocationsRepository;
+import domain.dto.Locations;
+import domain.repository.LocationsRepository;
 import com.MARM.mediciones_api.persistence.Entity.Ubicaciones;
 import com.MARM.mediciones_api.persistence.crud.UbicacionesCrudRepository;
 import com.MARM.mediciones_api.persistence.mapper.LocationsMapper;

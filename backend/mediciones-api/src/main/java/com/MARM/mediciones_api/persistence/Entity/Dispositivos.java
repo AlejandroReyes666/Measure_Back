@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.List;
 
-//@JsonIgnoreProperties({"medidasDiarias","medidasSemana","medidaMonth","medidaYear"})
+
 @Entity
 @Table(name="dispositivos")
 @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "idDispositivo")
@@ -22,10 +22,6 @@ public class Dispositivos {
 
     @Column (name = "nombre")
     private String nombreDispositivo;
-
-    //@Column (name ="Ubicacion_id", insertable = false,updatable = false)
-    //private Integer idUbicacion;
-
     @Column(name ="estado")
     private String estado;
 

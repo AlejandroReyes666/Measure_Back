@@ -11,7 +11,6 @@ import java.util.Optional;
 
 public interface DispositivoCrudRepository extends CrudRepository<Dispositivos,Integer> {
     List<Dispositivos> findByUbicacion_IdUbicacionesOrderByNombreDispositivoAsc(Integer idUbicacion);
-    //List<Dispositivos> findByIdUbicacionOrderByNombreDispositivoAsc(Integer idUbicacion);
     List<Dispositivos> findByEstado(String estado);
 
     List<Dispositivos> findByCreateInBefore(LocalDateTime createIn);

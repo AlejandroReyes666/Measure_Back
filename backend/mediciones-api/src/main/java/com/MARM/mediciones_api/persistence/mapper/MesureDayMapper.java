@@ -1,9 +1,7 @@
 package com.MARM.mediciones_api.persistence.mapper;
 
 
-import com.MARM.mediciones_api.domain.dto.Devices;
-import com.MARM.mediciones_api.domain.dto.MesureDay;
-import com.MARM.mediciones_api.persistence.Entity.Dispositivos;
+import domain.dto.MesureDay;
 import com.MARM.mediciones_api.persistence.Entity.MedidadDia;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;

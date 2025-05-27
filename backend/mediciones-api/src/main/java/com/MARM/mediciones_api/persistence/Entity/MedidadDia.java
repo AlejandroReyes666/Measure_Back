@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "mediciones_diarias")
-//@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "idMeditiondaily")
+
 public class MedidadDia {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -37,7 +37,7 @@ public class MedidadDia {
 
     @ManyToOne
     @JoinColumn(name = "dispositivo_id",referencedColumnName = "id",insertable = false,updatable = false)
-    //@JsonBackReference
+
     @JsonIgnore
     private Dispositivos dispositivoDia;
 

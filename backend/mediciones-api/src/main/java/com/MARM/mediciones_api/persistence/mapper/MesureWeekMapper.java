@@ -1,9 +1,7 @@
 package com.MARM.mediciones_api.persistence.mapper;
 
 
-import com.MARM.mediciones_api.domain.dto.MesureDay;
-import com.MARM.mediciones_api.domain.dto.MesureWeek;
-import com.MARM.mediciones_api.persistence.Entity.MedidadDia;
+import domain.dto.MesureWeek;
 import com.MARM.mediciones_api.persistence.Entity.MedidasSemana;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;

@@ -1,8 +1,7 @@
 package com.MARM.mediciones_api.persistence.mapper;
 
 
-import com.MARM.mediciones_api.domain.dto.Devices;
-import com.MARM.mediciones_api.domain.dto.Locations;
+import domain.dto.Devices;
 import com.MARM.mediciones_api.persistence.Entity.Dispositivos;
 import com.MARM.mediciones_api.persistence.Entity.Ubicaciones;
 import org.mapstruct.*;

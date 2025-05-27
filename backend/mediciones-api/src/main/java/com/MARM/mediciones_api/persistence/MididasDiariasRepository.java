@@ -1,8 +1,7 @@
 package com.MARM.mediciones_api.persistence;
 
-import com.MARM.mediciones_api.domain.dto.MesureDay;
-import com.MARM.mediciones_api.domain.repository.MeasureDayRepository;
-import com.MARM.mediciones_api.persistence.Entity.Dispositivos;
+import domain.dto.MesureDay;
+import domain.repository.MeasureDayRepository;
 import com.MARM.mediciones_api.persistence.Entity.MedidadDia;
 import com.MARM.mediciones_api.persistence.crud.MedidasDiariasCrudRepository;
 import com.MARM.mediciones_api.persistence.mapper.MesureDayMapper;

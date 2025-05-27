@@ -1,8 +1,8 @@
 package com.MARM.mediciones_api.persistence;
 
 
-import com.MARM.mediciones_api.domain.dto.Devices;
-import com.MARM.mediciones_api.domain.repository.DevicesRepository;
+import domain.dto.Devices;
+import domain.repository.DevicesRepository;
 import com.MARM.mediciones_api.persistence.Entity.Dispositivos;
 import com.MARM.mediciones_api.persistence.crud.DispositivoCrudRepository;
 import com.MARM.mediciones_api.persistence.mapper.DevicesMapper;

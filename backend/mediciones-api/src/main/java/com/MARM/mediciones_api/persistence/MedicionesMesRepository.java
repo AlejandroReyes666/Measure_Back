@@ -1,8 +1,8 @@
 package com.MARM.mediciones_api.persistence;
 
 
-import com.MARM.mediciones_api.domain.dto.MesureMonth;
-import com.MARM.mediciones_api.domain.repository.MeasureMonthRepository;
+import domain.dto.MesureMonth;
+import domain.repository.MeasureMonthRepository;
 import com.MARM.mediciones_api.persistence.Entity.MedidasMes;
 import com.MARM.mediciones_api.persistence.crud.MedidadMensualesCrudRepository;
 import com.MARM.mediciones_api.persistence.mapper.MesureMonthMapper;

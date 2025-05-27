@@ -1,5 +1,5 @@
 package com.MARM.mediciones_api.persistence.mapper;
-import com.MARM.mediciones_api.domain.dto.Locations;
+import domain.dto.Locations;
 import com.MARM.mediciones_api.persistence.Entity.Ubicaciones;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;

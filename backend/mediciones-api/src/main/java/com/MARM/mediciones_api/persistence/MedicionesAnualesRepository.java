@@ -1,7 +1,7 @@
 package com.MARM.mediciones_api.persistence;
 
-import com.MARM.mediciones_api.domain.dto.MesureYear;
-import com.MARM.mediciones_api.domain.repository.MesureYearRepository;
+import domain.dto.MesureYear;
+import domain.repository.MesureYearRepository;
 import com.MARM.mediciones_api.persistence.Entity.MedidasAño;
 import com.MARM.mediciones_api.persistence.crud.MedidasAnualesCrudRepository;
 import com.MARM.mediciones_api.persistence.mapper.MesureYearMapper;

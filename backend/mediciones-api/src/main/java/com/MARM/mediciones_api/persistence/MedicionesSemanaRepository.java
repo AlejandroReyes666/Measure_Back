@@ -1,7 +1,7 @@
 package com.MARM.mediciones_api.persistence;
 
-import com.MARM.mediciones_api.domain.dto.MesureWeek;
-import com.MARM.mediciones_api.domain.repository.MesureWeekResposirory;
+import domain.dto.MesureWeek;
+import domain.repository.MesureWeekResposirory;
 import com.MARM.mediciones_api.persistence.Entity.MedidasSemana;
 import com.MARM.mediciones_api.persistence.crud.MedidasSemanaCrudRepository;
 import com.MARM.mediciones_api.persistence.mapper.MesureWeekMapper;
