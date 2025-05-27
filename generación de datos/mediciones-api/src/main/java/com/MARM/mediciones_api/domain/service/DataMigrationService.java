@@ -33,7 +33,7 @@ public class DataMigrationService {
     }
 
 
-//    @Scheduled(cron = "0 */2 * *  * *")
+   @Scheduled(cron = "0 */2 * *  * *")
     public void moveDaylytoWeekly(){
         LocalDateTime cutOffDate=LocalDateTime.now().minusDays( 1);
         List<MesureDay>mesureDays=mididasDiariasRepository.getByMesureDateBefore(cutOffDate);
@@ -67,8 +67,7 @@ public class DataMigrationService {
     }
 
 
-
-  //  @Scheduled(cron = "0 */3 * * * *")
+    @Scheduled(cron = "0 */3 * * * *")
     public void moveWeeklytoMonthly(){
         LocalDateTime cutOffDate=LocalDateTime.now().minusDays(7);
         List<MesureWeek>mesureWeek=medicionesSemanaRepository.getByMesureDateBefore(cutOffDate);
@@ -99,7 +98,7 @@ public class DataMigrationService {
     }
 
 
-    // @Scheduled(cron = "0 */11 * * * ?")
+    @Scheduled(cron = "0 */11 * * * ?")
     public void moveMonthlytoYear(){
         LocalDateTime cutOffDate=LocalDateTime.now().minusDays(7);
         List<MesureMonth>mesureMonths=medicionesMesRepository.getByMesureDateBefore(cutOffDate);
